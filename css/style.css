@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+img{
+	width: 20%;
+	height: 200px !important;
+	cursor: pointer;
+}
+#cbox{
+	background-color: white;
+	width: 50%;
+	height: 60%;
+	position: fixed;
+	top: 20%;
+	left: 25%;
+	opacity: 1;
+	transform: scale(0);
+	transition: 0.8s;
+    border: 3px solid lightpink;
+    border-radius: 5px;
+    padding: 2px;
+    border-image-slice: 1;
+/*	border-image-source: linear-gradient(#ee9ca7 , #ffdde1);*/
+}
+#ebox{
+ width: 100% !important;
+ height: 100% !important;
+ pointer-events: none;
+}
+.icon{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	color: whitesmoke;
+	opacity: 0.8;
+	transform: scale(1.2);	
+}
+.icon:hover{
+	color: darkred;
+	transition: 0.3s;
+	opacity: 1;
+}
+body{
+    background: url('https://cdn.wallpapersafari.com/75/58/gRADqy.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 190%;
+}
+.header{
+	text-align: center;
+	padding: 30px;
+	background-color: rgb(72, 61, 139,0.6);;
+	text-shadow: 3px 3px black;
+	font-family: cursive;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.footer{
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+#all{
+	border-color: blue;
+	padding: 8px 30px;
+}
+#all:hover{
+	background-color: blue;
+	color: white;
+}
+#book{
+	border-color: green;
+	padding: 8px 30px;
+}
+#book:hover{
+	background-color: green;
+	color: white;
+}
+#place{
+	border-color: red;
+	padding: 8px 30px;
+}
+#place:hover{
+	background-color: red;
+	color: white;
+}
+.img-fluid{
+	border-color: lightpink;
+	padding: 4px;
+}
